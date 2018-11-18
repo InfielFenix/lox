@@ -3818,8 +3818,8 @@ input, select, textarea {
 					}
 
 					#banner .content .image {
-						height: 9em;
-						width: 9em;
+						height: auto;
+    					width: 100%;
 					}
 
 		/* Nav */
@@ -3880,6 +3880,7 @@ input, select, textarea {
 					width: 90px;
 					outline: 0;
 					border: 0;
+					display:none;
 				}
 
 					#titleBar .toggle:before {
