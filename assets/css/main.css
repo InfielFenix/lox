@@ -2601,6 +2601,12 @@ input, select, textarea {
 
 /* Actions */
 
+	.selectedButton{
+		background-color: black !important;
+		cursor: default !important;
+		pointer-events: none;
+	}
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2826,8 +2832,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #8bd1ed;
-			color: #8bd1ed !important;
+			box-shadow: inset 0 0 0 1px #ffd603;
+			color: #ffd603 !important;
 		}
 
 		input[type="submit"]:active,
