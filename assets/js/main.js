@@ -247,4 +247,22 @@
 		$banner
 			._parallax();
 
+	// Lightbox gallery.
+	$window.on('load', function() {
+
+		$('body').poptrox({
+			overlayColor: '#2c2c2c',
+			overlayOpacity: 0.85,
+			popupCloserText: '',
+			popupLoaderText: '',
+			selector: 'a.image',
+			usePopupCaption: false,
+			usePopupDefaultStyling: false,
+			usePopupEasyClose: true,
+			usePopupNav: true,
+			windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+		});
+
+	});
+
 })(jQuery);
